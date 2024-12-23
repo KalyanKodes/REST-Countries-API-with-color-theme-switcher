@@ -1,0 +1,33 @@
+:root {
+  /* Dark Mode */
+  --dark-blue-elements: hsl(209, 23%, 22%);
+  --very-dark-blue-background: hsl(207, 26%, 17%);
+  --white-dark-mode-text: hsl(0, 0%, 100%);
+  /* Light Mode */
+  --very-dark-blue-text: hsl(200, 15%, 8%);
+  --dark-gray-input: hsl(0, 0%, 52%);
+  --very-light-gray-background: hsl(0, 0%, 98%);
+  --white-light-mode-elements: hsl(0, 0%, 100%);
+}
+
+
+#root{
+    background-color: var(--very-light-gray-background);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", serif;
+}
+
+
+
+
+#root{
+    display: flex;
+    flex-direction: column;
+}

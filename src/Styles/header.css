@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+
+header h1{
+    font-size: 20px;
+}
+
+.mode-toggle-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
